@@ -81,3 +81,23 @@
 @media(max-width:900px){.gc-hero-in,.gc-2c,.gc-det{grid-template-columns:1fr}.gc-grid,.gc-plat{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.gc-grid,.gc-plat{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.gc *{transition:none!important}}
+
+/* VILLANOMENTUM2: extra per la villa (tabella spazi, FAQ, foto, barra mobile). Colori solo da variabili --gc-*; niente hex di accento. */
+.vn-chips{padding:1.4rem 0}
+.vn-note{margin:2rem 0 0;color:var(--gc-mut);line-height:1.6;max-width:60ch}
+.vn-box{margin-top:1.75rem;padding:1.1rem 1.25rem;border:1px solid var(--gc-line);background:#fff;line-height:1.6;border-radius:8px}
+.vn-tw{overflow-x:auto;margin-top:2rem;border:1px solid var(--gc-line);border-radius:8px}
+.vn-t{width:100%;border-collapse:collapse;min-width:620px;margin:0}
+.vn-t th,.vn-t td{padding:.85rem 1rem;text-align:left;border-bottom:1px solid var(--gc-line);color:var(--gc-mut);background:#fff}
+.vn-t th{font-family:var(--gc-head);color:var(--gc-ink);background:var(--gc-soft)}
+.vn-t tr:last-child th,.vn-t tr:last-child td{border-bottom:0;font-weight:700;color:var(--gc-ink);background:var(--gc-acc-s)}
+.vn-ph{display:block;width:100%;height:clamp(220px,32vw,380px);object-fit:cover;border-radius:12px}
+.vn-faq{margin-top:2rem;border-top:1px solid var(--gc-line)}
+.vn-faq details{border-bottom:1px solid var(--gc-line)}
+.vn-faq summary{cursor:pointer;list-style:none;padding:1.1rem .25rem;font:700 1.1rem var(--gc-head);color:var(--gc-ink);display:flex;justify-content:space-between;gap:1rem;align-items:center}
+.vn-faq summary::-webkit-details-marker{display:none}
+.vn-faq summary::after{content:"+";font-size:1.5rem;line-height:1;transition:transform .2s}
+.vn-faq details[open] summary::after{transform:rotate(45deg)}
+.vn-faq details p{margin:0;padding:0 .25rem 1.2rem;color:var(--gc-mut);line-height:1.65;max-width:70ch}
+.vn-bar{display:none}
+@media(max-width:820px){.vn-bar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:.6rem 1rem;background:#fff;border-top:1px solid var(--gc-line)}.vn-bar a{width:100%;box-sizing:border-box;text-align:center}body{padding-bottom:4.5rem}}

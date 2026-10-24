@@ -1,1 +1,18 @@
 # English dropdown menus (empty = none). Each key must be IDENTICAL to a title in navigation.yml of this folder.
+
+The Villa:
+  - title: "Ways to stay"
+    url: /en/#formule
+  - title: "Floors and rooms"
+    url: /en/#piani
+  - title: "Garden"
+    url: /en/#giardino
+  - title: "Where we are"
+    url: /en/#posizione
+  - divider: true
+  - title: "For remote workers"
+    url: /en/remote-workers/
+  - title: "For students"
+    url: /en/students/
+  - title: "For visitors"
+    url: /en/visitors/

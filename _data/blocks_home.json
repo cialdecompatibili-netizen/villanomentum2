@@ -3,42 +3,78 @@
     "id": "hero",
     "nome": "Hero",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Il tuo settore, in due parole</p><h1 class=\"gc-h1\">Dì in una riga cosa fai, <em>senza giri di parole.</em></h1><p class=\"gc-lead\">Racconta in due righe chi sei, che problema risolvi e per chi. Scrivila come la diresti a voce a un cliente: semplice e diretta.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/contatti/\">Scrivici</a><a class=\"gc-btn gc-btn-o\" href=\"__BASEURL__/servizi/\">Vedi cosa facciamo</a></div></div><div class=\"ent-cycle\"><div><b>Ci racconti cosa ti serve</b><span>Senza impegno, anche solo per capire da dove partire</span></div><div><b>Ti proponiamo una soluzione</b><span>Chiara, con tempi e costi detti prima</span></div><div><b>Ci mettiamo al lavoro</b><span>Ti aggiorniamo a ogni passaggio</span></div><div><b>Consegna e assistenza</b><span>Restiamo a disposizione anche dopo</span></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Mentana, vicino a Roma</p><h1 class=\"gc-h1\">Stanze in villa con giardino a Mentana, <em>per vivere, lavorare o visitare Roma.</em></h1><p class=\"gc-lead\">Per smart worker e studentesse che cercano una casa tranquilla per mesi, e per turisti che vogliono dormire vicino a Roma. Tre piani con cucina e giardino.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/contatti/\">Chiedi disponibilit&#224;</a><a class=\"gc-btn gc-btn-o\" href=\"#piani\">Scopri i piani</a></div></div><div class=\"ent-cycle\"><div><b>3 piani abitabili</b><span>ognuno con cucina</span></div><div><b>18 posti letto</b><span>in tutta la villa</span></div><div><b>300 m</b><span>dalla fermata del bus</span></div></div></div></section></div>"
   },
   {
-    "id": "contesto",
-    "nome": "Il contesto",
+    "id": "sintesi",
+    "nome": "In sintesi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"contesto\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Qualche numero</p><h2 class=\"gc-h2\">Perché è un tema che conta</h2><p class=\"gc-lead\">Una frase che spiega il contesto, con un dato vero e la sua fonte. Se non ne hai, togli questa fascia.</p><div class=\"ent-stats\"><div><b>00</b><span>Dato da inserire</span></div><div><b>00</b><span>Dato da inserire</span></div><div><b>00</b><span>Dato da inserire</span></div></div><p class=\"ent-src\">Fonte: scrivi da dove arriva il dato.</p></div></section></div>"
-  },
-  {
-    "id": "servizi",
-    "nome": "Servizi",
-    "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"servizi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Cosa facciamo</p><h2 class=\"gc-h2\">Come possiamo darti una mano</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><span class=\"n\">01</span><b>Il servizio principale</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">02</span><b>Un secondo servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">03</span><b>Un terzo servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">04</span><b>Un quarto servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div></div><p style=\"margin-top:1.6rem\"><a class=\"gc-link\" href=\"__BASEURL__/servizi/\">Guarda tutti i servizi</a></p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft vn-chips\" id=\"sintesi\"><div class=\"gc-wrap\"><div class=\"gc-badges\"><span class=\"gc-badge\">3 piani</span><span class=\"gc-badge\">9 camere</span><span class=\"gc-badge\">18 posti letto</span><span class=\"gc-badge\">6 bagni</span><span class=\"gc-badge\">3 cucine</span><span class=\"gc-badge\">Giardino</span><span class=\"gc-badge\">Parcheggio</span><span class=\"gc-badge\">Bus a 300 m</span></div></div></section></div>"
   },
   {
     "id": "perchi",
     "nome": "Per chi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perchi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">A chi ci rivolgiamo</p><h2 class=\"gc-h2\">Chi si trova bene con noi</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>Privati</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Professionisti</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Piccole aziende</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Enti e associazioni</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perchi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">A chi &#232; pensata</p><h2 class=\"gc-h2\">Per chi &#232; la villa</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><b>Smart worker</b><p>Una casa tranquilla dove lavorare per settimane o mesi, con cucina e giardino per le pause.</p><p><a class=\"gc-link\" href=\"__BASEURL__/smart-worker/\">Soggiorni lunghi &#8594;</a></p></div><div class=\"gc-pl\"><b>Studentesse</b><p>Una stanza in villa vicino a Roma, con cucina, salone e giardino dove studiare.</p><p><a class=\"gc-link\" href=\"__BASEURL__/studentesse/\">Stanze per studentesse &#8594;</a></p></div><div class=\"gc-pl\"><b>Turisti</b><p>B&amp;B o camera a notte, colazione in giardino e Roma a portata di bus.</p><p><a class=\"gc-link\" href=\"__BASEURL__/turisti/\">Dormire a Mentana &#8594;</a></p></div></div></div></section></div>"
   },
   {
-    "id": "metodo",
-    "nome": "Come lavoriamo",
+    "id": "formule",
+    "nome": "Formule",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"metodo\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Come lavoriamo</p><h2 class=\"gc-h2\">Dalla prima chiamata alla consegna</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">01</span><b>Ci parliamo</b><p>Ascoltiamo cosa ti serve, senza impegno.</p></div><div class=\"gc-pl\"><span class=\"n\">02</span><b>Ti facciamo una proposta</b><p>Tempi e costi chiari, prima di iniziare.</p></div><div class=\"gc-pl\"><span class=\"n\">03</span><b>Ci mettiamo al lavoro</b><p>Ti teniamo aggiornato a ogni passaggio.</p></div><div class=\"gc-pl\"><span class=\"n\">04</span><b>Consegniamo e restiamo a disposizione</b><p>Se dopo serve qualcosa, ci trovi.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"formule\"><div class=\"gc-wrap\"><div class=\"gc-2c\"><div><p class=\"gc-eyebrow\">Formule</p><h2 class=\"gc-h2\">Come puoi soggiornare</h2><p class=\"gc-lead\">Per un periodo lungo o per poche notti: una sola villa, quattro modi di viverla.</p></div><ul class=\"gc-list\"><li><b>Soggiorni lunghi</b>: settimane o mesi, per smart worker e studentesse, con cucina a disposizione.</li><li><b>B&amp;B con colazione</b>: camera a notte con colazione inclusa, anche all&#39;aperto in giardino.</li><li><b>Camere a notte</b>: per turisti e viaggiatori di passaggio, a Mentana e vicino a Roma.</li><li><b>Villa intera</b>: tutti e tre i piani, 18 posti letto, su richiesta.</li></ul></div></div></section></div>"
   },
   {
-    "id": "avvisi",
-    "nome": "Blog",
+    "id": "piani",
+    "nome": "Piani e camere",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"avvisi\"><div class=\"gc-wrap gc-2c\"><div><p class=\"gc-eyebrow\">Dal blog</p><h2 class=\"gc-h2\">Cose che ti possono servire</h2><p class=\"gc-lead\">Guide brevi e novità, scritte in modo semplice.</p><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/blog/\">Vai al blog</a></div><div class=\"gc-pl\"><span class=\"n\">ULTIMO ARTICOLO</span><b>Il titolo del tuo ultimo articolo</b><p>Due righe per far venire voglia di leggerlo.</p></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"piani\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">La villa</p><h2 class=\"gc-h2\">Tre piani, ognuno una casa</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><b>Primo piano</b><ul><li>Salone e cucina</li><li>3 camere, 6 posti letto</li><li>2 bagni</li><li>Cantina</li></ul></div><div class=\"gc-pl\"><b>Secondo piano</b><ul><li>Salone e cucina</li><li>3 camere, 6 posti letto</li><li>2 bagni</li><li>Cantina</li></ul></div><div class=\"gc-pl\"><b>Terzo piano</b><ul><li>Salone e cucina</li><li>3 camere, 6 posti letto</li><li>2 bagni</li><li>Cantina</li></ul></div></div><p class=\"vn-note\">Ogni piano si pu&#242; prenotare da solo, a camere o insieme agli altri: con tutta la villa si arriva a 18 posti letto.</p></div></section></div>"
   },
   {
-    "id": "contatti",
-    "nome": "Contatti",
+    "id": "dettaglio",
+    "nome": "Dettaglio spazi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"contatti\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contatti</p><h2 class=\"gc-h2\">Scriviamoci</h2><p class=\"gc-lead\">Raccontaci di cosa hai bisogno, ti rispondiamo appena possibile.</p><a class=\"gc-btn\" href=\"__BASEURL__/contatti/\">Scrivici</a></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"dettaglio\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Gli spazi</p><h2 class=\"gc-h2\">Dettaglio degli spazi</h2><div class=\"vn-tw\"><table class=\"vn-t\"><thead><tr><th scope=\"col\">Piano</th><th scope=\"col\">Camere</th><th scope=\"col\">Posti letto</th><th scope=\"col\">Bagni</th><th scope=\"col\">Salone e cucina</th><th scope=\"col\">Cantina</th></tr></thead><tbody><tr><th scope=\"row\">Primo piano</th><td>3</td><td>6</td><td>2</td><td>S&#236;</td><td>S&#236;</td></tr><tr><th scope=\"row\">Secondo piano</th><td>3</td><td>6</td><td>2</td><td>S&#236;</td><td>S&#236;</td></tr><tr><th scope=\"row\">Terzo piano</th><td>3</td><td>6</td><td>2</td><td>S&#236;</td><td>S&#236;</td></tr><tr><th scope=\"row\">Villa intera</th><td>9</td><td>18</td><td>6</td><td>3</td><td>3</td></tr></tbody></table></div><div class=\"gc-plat\"><div class=\"gc-pl\"><b>Giardino</b><p>Tavoli, barbecue e zona relax, a disposizione degli ospiti.</p></div><div class=\"gc-pl\"><b>Parcheggio</b><p>Posto per l&#39;auto in villa.</p></div><div class=\"gc-pl\"><b>Trasporti</b><p>Fermata del bus a 300 metri. <a class=\"gc-link\" href=\"__BASEURL__/blog/\">Come arrivare a Roma</a>.</p></div></div></div></section></div>"
+  },
+  {
+    "id": "giardino",
+    "nome": "Giardino",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"giardino\"><div class=\"gc-wrap\"><div class=\"gc-2c\"><div><h2 class=\"gc-h2\">Il giardino</h2><p class=\"gc-lead\">Uno spazio all&#39;aperto per tutti gli ospiti, da vivere dalla colazione alla sera.</p><ul class=\"gc-list\"><li>Tavoli per mangiare all&#39;aperto</li><li>Barbecue</li><li>Zona relax</li><li>Parcheggio</li></ul></div><div><img class=\"vn-ph\" src=\"__BASEURL__/assets/foto/colline-panorama.jpg\" width=\"1400\" height=\"935\" loading=\"lazy\" alt=\"Vista panoramica sulle colline dal giardino\"></div></div></div></section></div>"
+  },
+  {
+    "id": "posizione",
+    "nome": "Dove siamo",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"posizione\"><div class=\"gc-wrap\"><div class=\"gc-2c\"><div><h2 class=\"gc-h2\">Dove siamo</h2><p class=\"gc-lead\">A Mentana, in zona Mezzaluna, vicino a Roma.</p><ul class=\"gc-list\"><li><b>Bus a 300 metri</b>: la fermata &#232; a pochi minuti a piedi dalla villa.</li><li><b>Zona residenziale</b>: quartiere tranquillo, adatto sia a un soggiorno breve sia a vivere e lavorare per un periodo.</li></ul></div><div><img class=\"vn-ph\" src=\"__BASEURL__/assets/foto/borgo-colline.jpg\" width=\"1400\" height=\"933\" loading=\"lazy\" alt=\"Tetti di un borgo e colline con cipressi\"></div></div></div></section></div>"
+  },
+  {
+    "id": "tariffe",
+    "nome": "Tariffe",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"tariffe\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Prezzi</p><h2 class=\"gc-h2\">Tariffe e condizioni</h2><p class=\"gc-lead\">Il prezzo dipende da periodo, formula e numero di ospiti. Scrivici le date e rispondiamo con un preventivo.</p><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">Su richiesta</span><b>Soggiorni lunghi</b><p>Settimane o mesi, per smart worker e studentesse.</p></div><div class=\"gc-pl\"><span class=\"n\">Su richiesta</span><b>B&amp;B</b><p>Camera a notte con colazione.</p></div><div class=\"gc-pl\"><span class=\"n\">Su richiesta</span><b>Camera a notte</b><p>Per turisti e viaggiatori di passaggio.</p></div><div class=\"gc-pl\"><span class=\"n\">Su richiesta</span><b>Villa intera</b><p>Tre piani, 18 posti letto.</p></div></div><p class=\"vn-box\"><strong>Regola della casa:</strong> niente feste. La villa &#232; pensata per chi cerca tranquillit&#224;.</p></div></section></div>"
+  },
+  {
+    "id": "faq",
+    "nome": "Domande frequenti",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"faq\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">FAQ</p><h2 class=\"gc-h2\">Domande frequenti</h2><div class=\"vn-faq\"><details><summary>Posso prenotare solo una camera?</summary><p>S&#236;. Puoi chiedere una camera, un piano intero o tutta la villa, in base a quante persone siete.</p></details><details><summary>Quanti ospiti pu&#242; ospitare la villa?</summary><p>Fino a 18 persone in tutta la villa: ogni piano ha 3 camere e 6 posti letto.</p></details><details><summary>C&#39;&#232; una cucina a disposizione?</summary><p>S&#236;, ogni piano &#232; abitabile e ha salone e cucina.</p></details><details><summary>Come si arriva a Roma?</summary><p>La fermata del bus &#232; a 300 metri dalla villa. Nel <a href=\"__BASEURL__/blog/\">blog</a> trovi la guida con bus e treno.</p></details><details><summary>Si possono organizzare feste?</summary><p>No, in villa non sono ammesse feste.</p></details><details><summary>Come chiedo la disponibilit&#224;?</summary><p>Dalla pagina <a href=\"__BASEURL__/contatti/\">Contatti</a>: indica date, numero di persone e cosa cerchi. Non serve pagare nulla per chiedere.</p></details></div></div></section></div>"
+  },
+  {
+    "id": "guide",
+    "nome": "Guide",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"guide\"><div class=\"gc-wrap\"><div class=\"gc-2c\"><div><p class=\"gc-eyebrow\">Dal blog</p><h2 class=\"gc-h2\">Guide per il tuo soggiorno</h2><p class=\"gc-lead\">Come arrivare a Roma, cosa vedere a Mentana e dintorni, come vivere e lavorare fuori citt&#224;.</p></div><div><ul class=\"gc-list\"><li>Come arrivare a Roma da Mentana</li><li>Vivere e lavorare fuori Roma</li><li>Cosa vedere a Mentana e dintorni</li><li>Un giorno a Roma partendo da Mentana</li></ul><p style=\"margin-top:1.4rem\"><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/blog/\">Leggi le guide</a></p></div></div></div></section></div>"
+  },
+  {
+    "id": "richiesta",
+    "nome": "Richiesta",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"richiesta\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contatti</p><h2 class=\"gc-h2\">Chiedi date e disponibilit&#224;</h2><p class=\"gc-lead\">Dicci quando arrivi, in quanti siete e cosa cerchi: camera, piano o villa intera.</p><a class=\"gc-btn\" href=\"__BASEURL__/contatti/\">Contattaci</a></div></section></div>"
+  },
+  {
+    "id": "barra",
+    "nome": "Barra contatto mobile",
+    "enabled": true,
+    "html": "<div class=\"vn-bar\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/contatti/\">Chiedi disponibilit&#224;</a></div>"
   }
 ]

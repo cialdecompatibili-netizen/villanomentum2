@@ -2,12 +2,12 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Soggiorni",
+      "id": "soggiorni",
+      "icona": "🛏️",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Stays"
         }
       }
     }
@@ -15,20 +15,77 @@
   "prodotti": [
     {
       "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "id": "soggiorno-lungo",
+      "nome": "Soggiorno lungo",
+      "categoria": "soggiorni",
+      "prezzo_centesimi": 0,
+      "descrizione": "Settimane o mesi in villa, con cucina a disposizione.",
+      "descrizione_completa": "Settimane o mesi in villa, con cucina a disposizione.",
       "immagine": "",
-      "icona": "🛍️",
-      "visibile": true,
+      "icona": "🛏️",
+      "visibile": false,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Long stay",
+          "descrizione": "Weeks or months at the villa, with a kitchen at your disposal.",
+          "descrizione_completa": "Weeks or months at the villa, with a kitchen at your disposal."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "bnb-colazione",
+      "nome": "B&B con colazione",
+      "categoria": "soggiorni",
+      "prezzo_centesimi": 0,
+      "descrizione": "Camera a notte con colazione inclusa.",
+      "descrizione_completa": "Camera a notte con colazione inclusa.",
+      "immagine": "",
+      "icona": "🛏️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "B&B with breakfast",
+          "descrizione": "A room by the night with breakfast included.",
+          "descrizione_completa": "A room by the night with breakfast included."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "camera-notte",
+      "nome": "Camera a notte",
+      "categoria": "soggiorni",
+      "prezzo_centesimi": 0,
+      "descrizione": "Una camera per una o più notti.",
+      "descrizione_completa": "Una camera per una o più notti.",
+      "immagine": "",
+      "icona": "🛏️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "Room by the night",
+          "descrizione": "A room for one or more nights.",
+          "descrizione_completa": "A room for one or more nights."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "villa-intera",
+      "nome": "Villa intera",
+      "categoria": "soggiorni",
+      "prezzo_centesimi": 0,
+      "descrizione": "Tutti e tre i piani, 18 posti letto.",
+      "descrizione_completa": "Tutti e tre i piani, 18 posti letto.",
+      "immagine": "",
+      "icona": "🛏️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "Whole villa",
+          "descrizione": "All three floors, 18 beds.",
+          "descrizione_completa": "All three floors, 18 beds."
         }
       }
     }
