@@ -26,10 +26,23 @@
 .blog-go{flex:0 0 auto;align-self:center;font-size:1.3rem;color:var(--gc-acc,#3f6b00);padding:0 1rem 0 .2rem;transition:transform .2s}
 .blog-item:hover .blog-go{transform:translateX(3px)}
 @media(max-width:640px){.blog-item{flex-direction:column;gap:0}.blog-img{flex:none;width:100%;min-height:0;aspect-ratio:16/9}.blog-body{padding:.8rem 1rem 1rem}.blog-go{display:none}.blog-excerpt{-webkit-line-clamp:2}}
+.blog-filtri{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1rem}
+.blog-filtri button{font:inherit;font-size:.85rem;cursor:pointer;padding:.35rem .9rem;border:1px solid var(--gc-line,#e6e8ee);border-radius:999px;background:#fff;color:var(--gc-ink,#0e1116)}
+.blog-filtri button:hover{border-color:var(--gc-acc,#3f6b00);color:var(--gc-acc,#3f6b00)}
+.blog-filtri button.on{background:var(--gc-acc,#3f6b00);border-color:var(--gc-acc,#3f6b00);color:#fff}
 </style>
+{%- comment -%} FILTRO CATEGORIE: pillole generate dalle categorie degli articoli (escluso il nome cartella lingua). Filtra lato browser con hidden + PgLista.refresh (paginazione.js). Link diretto: /blog/#slug. {%- endcomment -%}
+{%- assign bf_cats = posts_l | map: "categories" | join: "," | split: "," | uniq | sort -%}
+{%- assign bf_tutti = "Tutti" -%}{%- if page.lang == "en" -%}{%- assign bf_tutti = "All" -%}{%- endif -%}
+<nav class="blog-filtri" id="blog-filtri" aria-label="Categorie">
+  <button type="button" data-f="" class="on">{{ bf_tutti }}</button>
+  {%- for c in bf_cats -%}{%- if c != page.lang and c != "" -%}
+  <button type="button" data-f="{{ c | slugify }}">{{ c }}</button>
+  {%- endif -%}{%- endfor %}
+</nav>
 <ul class="blog-list" data-pg data-pg-item="li.blog-item" data-per="{{ site.per_page | default: 20 }}">
 {%- for post in posts_l %}
-  <li class="blog-item">
+  <li class="blog-item" data-cats="{% for c in post.categories %}{{ c | slugify }} {% endfor %}">
     <div class="blog-img">{% if post.header.teaser %}<img src="{{ post.header.teaser | relative_url }}" alt="" loading="lazy">{% endif %}</div>
     <div class="blog-body">
       {%- if post.categories.size > 0 %}
@@ -47,3 +60,26 @@
   </li>
 {%- endfor %}
 </ul>
+
+<script>
+/* Filtro categorie blog: legge data-cats dei li, nasconde con hidden e avvisa la paginazione. Hash #slug = filtro diretto. */
+(function(){
+  var nav=document.getElementById('blog-filtri'),ul=document.querySelector('.blog-list');
+  if(!nav||!ul)return;
+  function set(f){
+    nav.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-f')===f);});
+    ul.querySelectorAll('li.blog-item').forEach(function(li){
+      var ok=!f||(' '+li.getAttribute('data-cats')).indexOf(' '+f+' ')>-1;
+      if(ok)li.removeAttribute('hidden');else li.setAttribute('hidden','');
+    });
+    if(window.PgLista)window.PgLista.refresh(ul,true);
+  }
+  nav.addEventListener('click',function(e){
+    var b=e.target.closest('button');if(!b)return;
+    var f=b.getAttribute('data-f');set(f);
+    try{history.replaceState(null,'',f?'#'+f:location.pathname+location.search);}catch(x){}
+  });
+  var h=decodeURIComponent((location.hash||'').slice(1));
+  if(h&&nav.querySelector('[data-f="'+h.replace(/"/g,'')+'"]'))set(h);
+})();
+</script>
