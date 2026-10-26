@@ -6,12 +6,16 @@ date: 2026-10-26
 excerpt: "Giardino di Ninfa, Sermoneta, Villa d'Este a Tivoli, Castelli Romani e Civita di Bagnoregio: dove andare in primavera in giornata partendo da Roma."
 seo_title: "Primavera nel Lazio: Giardino di Ninfa, Tivoli, Sermoneta, Castelli Romani"
 seo_description: "Cosa fare nel Lazio in primavera: Giardino di Ninfa, Sermoneta, ville di Tivoli, Castelli Romani, laghi e borghi, con consigli per organizzare la gita."
+header:
+  teaser: /assets/foto/blog/primavera-ninfa.jpg
 categories:
   - attrazioni
   - primavera
 ---
 
 In primavera il Lazio dà il meglio: temperature miti, fioriture e meno caldo rispetto all'estate. Marzo è un mese più tranquillo, mentre aprile e maggio sono i più affollati nei weekend.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/primavera-ninfa.jpg' | relative_url }}" width="1920" height="1440" alt="I Giardini di Ninfa in primavera" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">I Giardini di Ninfa, tra le mete più amate della primavera nel Lazio. Foto: Federico2, CC BY-SA 3.0, via Wikimedia Commons.</figcaption></figure>
 
 ## Giardini e fioriture
 

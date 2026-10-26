@@ -6,16 +6,20 @@ date: 2026-10-26
 excerpt: "Monte Livata, Simbruini Mountains, Monte Cimino beech forest, Lake Bolsena, Bracciano and the Castelli Romani: foliage, food festivals and autumn trips from Rome."
 seo_title: "Autumn in Lazio: foliage, food festivals and villages near Rome"
 seo_description: "Where to see foliage in Lazio and what to do in autumn: Simbruini Mountains, Monte Livata, Monte Cimino, lakes, villages and the Castelli Romani."
+header:
+  teaser: /assets/foto/blog/autunno-castagne-manziana.jpg
 categories:
   - attractions
   - autumn
 lang: en
 locale: en
-tr: tradotto
+tr: da_aggiornare
 tr_hash: vya63z
 ---
 
 Autumn in Lazio means day trips under two hours from Rome: woods changing colour, villages, food festivals and hearty dishes. The best period for foliage runs from mid-October to mid-November.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/autunno-castagne-manziana.jpg' | relative_url }}" width="1920" height="1393" alt="Pumpkins, chestnuts and autumn fruit at the Manziana Chestnut Festival" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">Autumn fruit at the Manziana Chestnut Festival. Photo: Albarubescens, CC BY-SA 4.0, via Wikimedia Commons.</figcaption></figure>
 
 ## Foliage
 

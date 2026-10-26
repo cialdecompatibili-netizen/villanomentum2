@@ -6,16 +6,20 @@ date: 2026-10-26
 excerpt: "Ninfa Garden, Sermoneta, Villa d'Este in Tivoli, the Castelli Romani and Civita di Bagnoregio: where to go in spring as a day trip from Rome."
 seo_title: "Spring in Lazio: Ninfa Garden, Tivoli, Sermoneta, Castelli Romani"
 seo_description: "What to do in Lazio in spring: Ninfa Garden, Sermoneta, the villas of Tivoli, Castelli Romani, lakes and villages, with tips for planning your trip."
+header:
+  teaser: /assets/foto/blog/primavera-ninfa.jpg
 categories:
   - attractions
   - spring
 lang: en
 locale: en
-tr: tradotto
+tr: da_aggiornare
 tr_hash: ih2fxk
 ---
 
 Spring is Lazio at its best: mild temperatures, blossoms and less heat than summer. March is quieter, while April and May are the busiest on weekends.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/primavera-ninfa.jpg' | relative_url }}" width="1920" height="1440" alt="The Gardens of Ninfa in spring" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">The Gardens of Ninfa, one of Lazio's best-loved spring destinations. Photo: Federico2, CC BY-SA 3.0, via Wikimedia Commons.</figcaption></figure>
 
 ## Gardens and blooms
 

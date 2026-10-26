@@ -6,12 +6,16 @@ date: 2026-10-26
 excerpt: "Monte Livata, Monti Simbruini, Faggeta del Monte Cimino, Lago di Bolsena, Bracciano e Castelli Romani: foliage, sagre e gite d'autunno da Roma."
 seo_title: "Autunno nel Lazio: foliage, sagre e borghi da vedere vicino a Roma"
 seo_description: "Dove vedere il foliage nel Lazio e cosa fare in autunno: Monti Simbruini, Monte Livata, Monte Cimino, laghi, borghi e Castelli Romani."
+header:
+  teaser: /assets/foto/blog/autunno-castagne-manziana.jpg
 categories:
   - attrazioni
   - autunno
 ---
 
 L'autunno nel Lazio è fatto di gite fuori porta a meno di due ore da Roma: boschi che cambiano colore, borghi, sagre e piatti caldi. Il periodo migliore per il foliage va da metà ottobre a metà novembre.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/autunno-castagne-manziana.jpg' | relative_url }}" width="1920" height="1393" alt="Zucche, castagne e frutti d'autunno alla Sagra della Castagna di Manziana" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">Frutti d'autunno alla Sagra della Castagna di Manziana. Foto: Albarubescens, CC BY-SA 4.0, via Wikimedia Commons.</figcaption></figure>
 
 ## Foliage
 

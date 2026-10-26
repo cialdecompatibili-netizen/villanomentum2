@@ -6,16 +6,20 @@ date: 2026-10-26
 excerpt: "Monte Livata, Terminillo, Campo Staffi, Campo Felice and Ovindoli: where to ski, cross-country ski or snowshoe as a day trip from Rome."
 seo_title: "Skiing near Rome: Monte Livata, Terminillo, Campo Felice, Ovindoli"
 seo_description: "Where to ski and snowshoe near Rome in winter: Monte Livata, Terminillo, Campo Staffi, Campo Felice, Ovindoli and Campo Imperatore."
+header:
+  teaser: /assets/foto/blog/inverno-campo-felice.jpg
 categories:
   - attractions
   - winter
 lang: en
 locale: en
-tr: tradotto
+tr: da_aggiornare
 tr_hash: 1hssfby
 ---
 
 You don't need the Alps to see snow: from Rome you can reach several resorts in the central Apennines in a day, some in Lazio and some just across the border in Abruzzo. Drive times from the capital range from about an hour and a half to two hours, depending on the resort and weekend traffic.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/inverno-campo-felice.jpg' | relative_url }}" width="1280" height="960" alt="Alpine ski race at Campo Felice in the central Apennines" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">Skiing at Campo Felice, about two hours from Rome. Photo: Edo Leitner, public domain, via Wikimedia Commons.</figcaption></figure>
 
 ## In Lazio
 

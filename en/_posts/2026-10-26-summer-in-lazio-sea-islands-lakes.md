@@ -6,16 +6,20 @@ date: 2026-10-26
 excerpt: "Sperlonga, Gaeta, Sabaudia, San Felice Circeo, Ponza and the lakes: where to go to the beach and cool off in summer from Rome."
 seo_title: "Summer in Lazio: beaches of Sperlonga, Gaeta, Circeo, Ponza and lakes"
 seo_description: "Where to go to the beach in Lazio in summer: Sperlonga, Gaeta, Sabaudia, San Felice Circeo, the Pontine Islands, plus lakes and Ostia Antica."
+header:
+  teaser: /assets/foto/blog/estate-sperlonga.jpg
 categories:
   - attractions
   - summer
 lang: en
 locale: en
-tr: tradotto
+tr: da_aggiornare
 tr_hash: 186nn5j
 ---
 
 The Lazio coast changes character from north to south. The beaches closest to Rome are handy for a day trip, but the most scenic sea is in the province of Latina and on the Pontine Islands.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/estate-sperlonga.jpg' | relative_url }}" width="1920" height="1440" alt="Levante beach in Sperlonga" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">Levante beach in Sperlonga, on the Lazio coast. Photo: MM, public domain, via Wikimedia Commons.</figcaption></figure>
 
 ## Close to Rome
 

@@ -6,12 +6,16 @@ date: 2026-10-26
 excerpt: "Sperlonga, Gaeta, Sabaudia, San Felice Circeo, Ponza e i laghi: dove andare al mare e a rinfrescarsi in estate partendo da Roma."
 seo_title: "Estate nel Lazio: spiagge di Sperlonga, Gaeta, Circeo, Ponza e laghi"
 seo_description: "Dove andare al mare nel Lazio in estate: Sperlonga, Gaeta, Sabaudia, San Felice Circeo, Isole Pontine, più laghi e Ostia Antica."
+header:
+  teaser: /assets/foto/blog/estate-sperlonga.jpg
 categories:
   - attrazioni
   - estate
 ---
 
 La costa del Lazio cambia volto da nord a sud. Le spiagge più vicine a Roma sono pratiche per una gita in giornata, ma il mare più scenografico si trova nella provincia di Latina e sulle Isole Pontine.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/estate-sperlonga.jpg' | relative_url }}" width="1920" height="1440" alt="La spiaggia di Levante a Sperlonga" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">La spiaggia di Levante a Sperlonga, sul litorale laziale. Foto: MM, pubblico dominio, via Wikimedia Commons.</figcaption></figure>
 
 ## Vicino a Roma
 

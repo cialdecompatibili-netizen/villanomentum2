@@ -6,12 +6,16 @@ date: 2026-10-26
 excerpt: "Monte Livata, Terminillo, Campo Staffi, Campo Felice e Ovindoli: dove sciare, fare sci di fondo o ciaspolare in giornata partendo da Roma e dalla zona di Mentana."
 seo_title: "Sciare vicino a Roma: Monte Livata, Terminillo, Campo Felice, Ovindoli"
 seo_description: "Dove sciare e ciaspolare in inverno vicino a Roma: Monte Livata, Terminillo, Campo Staffi, Campo Felice, Ovindoli e Campo Imperatore, con distanze e consigli."
+header:
+  teaser: /assets/foto/blog/inverno-campo-felice.jpg
 categories:
   - attrazioni
   - inverno
 ---
 
 Per vedere la neve non serve andare sulle Alpi: da Roma si raggiungono in giornata diverse stazioni sull'Appennino centrale, alcune nel Lazio e altre appena oltre il confine con l'Abruzzo. Le distanze indicative dalla Capitale vanno da circa un'ora e mezza a due ore di auto, a seconda della località e del traffico del weekend.
+
+<figure style="margin:0 0 1.5rem"><img src="{{ '/assets/foto/blog/inverno-campo-felice.jpg' | relative_url }}" width="1280" height="960" alt="Gara di sci alpino a Campo Felice, sull'Appennino centrale" style="width:100%;height:auto;display:block" fetchpriority="high" decoding="async"><figcaption style="font-size:.9rem;margin-top:.5rem">Sci a Campo Felice, a circa due ore da Roma. Foto: Edo Leitner, pubblico dominio, via Wikimedia Commons.</figcaption></figure>
 
 ## Nel Lazio
 
