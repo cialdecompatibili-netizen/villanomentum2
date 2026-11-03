@@ -178,7 +178,7 @@ cms_homepage:
 #   Vuoto + whatsapp_demo:true  = bottoni visibili ma inerti (solo per demo ai clienti)
 #   Vuoto + whatsapp_demo:false = bottoni nascosti (DEFAULT del template)
 # Chi lo usa: _includes/footer/custom.html (bottone fluttuante), servizio-cta.html, _pages/contatti.md
-whatsapp: ""
+whatsapp: "" # non funzionante ancora, non ce l'ho
 whatsapp_demo: false
 # contact_endpoint: indirizzo del servizio (worker) che inoltra il modulo contatti. Vuoto = il modulo non appare.
 contact_endpoint: "https://contatti-form.evabomboniere.workers.dev"
